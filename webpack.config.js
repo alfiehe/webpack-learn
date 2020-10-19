@@ -34,7 +34,10 @@ module.exports = {
             },
             {
                 test: /\.tpl$/,
-                loader: 'ejs-loader'
+                loader: 'ejs-loader',
+                options: {
+                    esModule: false
+                }
             }
         ]
     },

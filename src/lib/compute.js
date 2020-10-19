@@ -1,3 +1,4 @@
+// 装饰器
 export default (target) => {
     target.prototype.plus = function (a, b) {
         return a + b;
